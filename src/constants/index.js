@@ -16,13 +16,13 @@ import {
   figma,
   docker,
   dalle,
-  tripguide,
   keeper,
   threejs,
   barber,
   donut,
   cleaner,
   porcudev,
+  daily,
 } from "../assets";
 
 export const navLinks = [
@@ -266,7 +266,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: daily,
     source_code_link: "https://dailyj.cyclic.app/",
   },
 ];

@@ -27,8 +27,8 @@ import cleaner from "./company/cleaner.png"
 import porcudev from "./company/porcudev.png"
 
 import keeper from "./keeper.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dalle from "./dalle.png";
+import daily from "./daily.png";
 
 export {
   logo,
@@ -57,6 +57,6 @@ export {
   cleaner,
   porcudev,
   keeper,
-  jobit,
-  tripguide,
+  dalle,
+  daily,
 };
