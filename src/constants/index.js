@@ -246,7 +246,7 @@ const projects = [
       },
     ],
     image: keeper,
-    source_code_link: "jotspot.netlify.app",
+    source_code_link: "https://jotspot.netlify.app",
   },
   {
     name: "Daily J",
