@@ -276,15 +276,15 @@ const projects = [
       "By working on Promptopia, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Next.js 13, Mongoose, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.",
     tags: [
       {
-        name: "nodejs",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb atlas",
+        name: "session",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nextauth",
         color: "pink-text-gradient",
       },
     ],

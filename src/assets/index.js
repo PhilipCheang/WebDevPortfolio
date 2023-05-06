@@ -29,6 +29,7 @@ import porcudev from "./company/porcudev.png"
 import keeper from "./keeper.png";
 import dalle from "./dalle.png";
 import daily from "./daily.png";
+import promptopia from "./promptopia.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   keeper,
   dalle,
   daily,
+  promptopia,
 };
