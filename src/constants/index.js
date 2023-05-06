@@ -17,6 +17,7 @@ import {
   docker,
   dalle,
   keeper,
+  promptopia,
   threejs,
   barber,
   donut,
@@ -268,6 +269,27 @@ const projects = [
     ],
     image: daily,
     source_code_link: "https://dailyj.cyclic.app/",
+  },
+  {
+    name: "Promptopia",
+    description:
+      "By working on Promptopia, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Next.js 13, Mongoose, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb atlas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "project-promptopia-eight.vercel.app",
   },
 ];
 
