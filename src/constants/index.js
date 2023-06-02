@@ -5,16 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   dalle,
   jacqui,
   admin,
@@ -27,6 +18,18 @@ import {
   porcudev,
   daily,
 } from "../assets";
+  
+import {
+  mongodb,
+  redux,
+  nodejs,
+  docker,
+  css,
+  html,
+  tailwind,
+  figma,
+  reactjs,
+} from "../assets/tech"
 
 export const navLinks = [
   {
