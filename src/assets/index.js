@@ -30,6 +30,8 @@ import keeper from "./keeper.png";
 import dalle from "./dalle.png";
 import daily from "./daily.png";
 import promptopia from "./promptopia.png";
+import admin from "./admin.png";
+import jacqui from "./jacqui.png";
 
 export {
   logo,
@@ -59,6 +61,8 @@ export {
   porcudev,
   keeper,
   dalle,
+  admin,
+  jacqui,
   daily,
   promptopia,
 };
