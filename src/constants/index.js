@@ -29,7 +29,7 @@ import {
   tailwind,
   figma,
   reactjs,
-} from "../assets/tech"
+} from "../assets/tech/"
 
 export const navLinks = [
   {
