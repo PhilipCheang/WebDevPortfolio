@@ -17,17 +17,16 @@ import {
   cleaner,
   porcudev,
   daily,
+  mongodb,
+  redux,
+  nodejs,
+  docker,
+  css,
+  html,
+  tailwind,
+  figma,
+  reactjs,
 } from "../assets";
-
-import mongodb from "../assets/tech/mongodb.png";
-import redux from "../assets/tech/redux.png";
-import nodejs from "../assets/tech/nodejs.png";
-import docker from "../assets/tech/docker.png";
-import css from "../assets/tech/css.png";
-import html from "../assets/tech/html.png";
-import tailwind from "../assets/tech/tailwind.png";
-import figma from "../assets/tech/figma.png";
-import reactjs from "../assets/tech/reactjs.png";
 
 export const navLinks = [
   {
