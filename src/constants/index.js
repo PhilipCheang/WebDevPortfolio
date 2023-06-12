@@ -10,6 +10,7 @@ import {
   jacqui,
   admin,
   keeper,
+  car_showcase,
   promptopia,
   threejs,
   barber,
@@ -210,16 +211,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Art Ai Community",
+    name: "Jacqui Admin Page",
     description:
-      "I learned how to use various technologies such as React, components, routers, and file-saver, as well as external APIs like Dalle API and cloud-based services like Cloudinary. By building a web app with these technologies, I gained valuable experience in creating dynamic, interactive web applications that connect to external data sources and cloud services.",
+      "This link will send you to my github repos. I learned to connect admin page and business website to the same MongoDB and AWS S3/Buckets. Your able to see live orders from customer, paid or not paid, collect customers information like (name, address, phoneNumber, etc.), and upload images to the business website. My goal is to implement a pos features, track customer sales, and connect to Bixolon tag/invoice Printer. Stay Tuned!",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "nextauth",
         color: "green-text-gradient",
       },
       {
@@ -227,12 +228,12 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: dalle,
-    source_code_link: "https://artaicommunity.netlify.app",
+    image: admin,
+    source_code_link: "https://github.com/PhilipCheang/ecom-admin",
   },
   {
     name: "Jacqui Cleaners",
@@ -260,16 +261,16 @@ const projects = [
     source_code_link: "https://ecommerce-front-six-lac.vercel.app/",
   },
   {
-    name: "Jacqui Admin Page",
+    name: "Art Ai Community",
     description:
-      "This link will send you to my github repos. I learned to connect admin page and business website to the same MongoDB and AWS S3/Buckets. Your able to see live orders from customer, paid or not paid, collect customers information like (name, address, phoneNumber, etc.), and upload images to the business website. My goal is to implement a pos features, track customer sales, and connect to Bixolon tag/invoice Printer. Stay Tuned!",
+      "I learned how to use various technologies such as React, components, routers, and file-saver, as well as external APIs like Dalle API and cloud-based services like Cloudinary. By building a web app with these technologies, I gained valuable experience in creating dynamic, interactive web applications that connect to external data sources and cloud services.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nextauth",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
@@ -277,12 +278,33 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "mongoDB",
+        name: "cloudinary",
         color: "pink-text-gradient",
       },
     ],
-    image: admin,
-    source_code_link: "https://github.com/PhilipCheang/ecom-admin",
+    image: dalle,
+    source_code_link: "https://artaicommunity.netlify.app",
+  },
+  {
+    name: "CarHub",
+    description:
+      "In my project, CarHub, I encountered a bug where the page would refresh and scroll to the top whenever I used the search filter. To fix this issue, I transitioned from server-side rendering to client-side rendering, utilizing TypeScript for improved code quality and catching potential bugs early on. I integrated the Car API from Ninja RapidAPI to provide accurate and comprehensive car data to users. Additionally, I employed React's useState and useEffect hooks for efficient state management and handling side effects. Through this project, I learned the importance of client-side rendering, the benefits of TypeScript, and the value of utilizing APIs and React hooks for enhanced development.",
+    tags: [
+      {
+        name: "NEXT.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: car_showcase,
+    source_code_link: "https://car-showcase-lac.vercel.app/",
   },
   {
     name: "Jot Spot",

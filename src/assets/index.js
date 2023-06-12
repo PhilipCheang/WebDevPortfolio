@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import barber from "./company/barber.jpg"
-import donut from "./company/donut.jpg"
-import cleaner from "./company/cleaner.png"
-import porcudev from "./company/porcudev.png"
+import barber from "./company/barber.jpg";
+import donut from "./company/donut.jpg";
+import cleaner from "./company/cleaner.png";
+import porcudev from "./company/porcudev.png";
 
 import keeper from "./keeper.png";
 import dalle from "./dalle.png";
@@ -32,6 +32,7 @@ import daily from "./daily.png";
 import promptopia from "./promptopia.png";
 import admin from "./admin.png";
 import jacqui from "./jacqui.png";
+import car_showcase from "./car-showcase.png";
 
 export {
   logo,
@@ -59,6 +60,7 @@ export {
   donut,
   cleaner,
   porcudev,
+  car_showcase,
   keeper,
   dalle,
   admin,
