@@ -39,6 +39,10 @@ export const navLinks = [
     title: 'Work',
   },
   {
+    id: 'project',
+    title: 'Projects',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
@@ -277,73 +281,73 @@ const projects = [
     image: car_showcase,
     source_code_link: 'https://car-showcase-lac.vercel.app/',
   },
-  {
-    name: 'Promptopia',
-    description:
-      'By working on Promptopia, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Next.js 13, Mongoose, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'session',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'nextauth',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: promptopia,
-    source_code_link: 'https://project-promptopia-eight.vercel.app',
-  },
-  {
-    name: 'Jacqui Admin Page',
-    description:
-      'This link will send you to my github repos. I learned to connect admin page and business website to the same MongoDB and AWS S3/Buckets. Your able to see live orders from customer, paid or not paid, collect customers information like (name, address, phoneNumber, etc.), and upload images to the business website. My goal is to implement a pos features, track customer sales, and connect to Bixolon tag/invoice Printer. Stay Tuned!',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nextauth',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwindcss',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'mongoDB',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: admin,
-    source_code_link: 'https://github.com/PhilipCheang/ecom-admin',
-  },
-  {
-    name: 'Jot Spot',
-    description:
-      'The Jot Spot is a secure and user-friendly tool designed to help you organize and store important information, such as passwords, credit card data, and notes. Whether you need to keep your personal or professional information secure, the Keeper App is an excellent solution.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwindcss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: keeper,
-    source_code_link: 'https://jotspot.netlify.app',
-  },
+  // {
+  //   name: "Promptopia",
+  //   description:
+  //     "By working on Promptopia, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Next.js 13, Mongoose, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "session",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "nextauth",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: promptopia,
+  //   source_code_link: "https://project-promptopia-eight.vercel.app",
+  // },
+  // {
+  //   name: "Jacqui Admin Page",
+  //   description:
+  //     "This link will send you to my github repos. I learned to connect admin page and business website to the same MongoDB and AWS S3/Buckets. Your able to see live orders from customer, paid or not paid, collect customers information like (name, address, phoneNumber, etc.), and upload images to the business website. My goal is to implement a pos features, track customer sales, and connect to Bixolon tag/invoice Printer. Stay Tuned!",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nextauth",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDB",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: admin,
+  //   source_code_link: "https://github.com/PhilipCheang/ecom-admin",
+  // },
+  // {
+  //   name: "Jot Spot",
+  //   description:
+  //     "The Jot Spot is a secure and user-friendly tool designed to help you organize and store important information, such as passwords, credit card data, and notes. Whether you need to keep your personal or professional information secure, the Keeper App is an excellent solution.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: keeper,
+  //   source_code_link: "https://jotspot.netlify.app",
+  // },
   {
     name: 'Daily J',
     description:
