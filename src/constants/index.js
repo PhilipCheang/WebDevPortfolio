@@ -233,33 +233,35 @@ const projects = [
       },
     ],
     image: jacqui,
-    source_code_link: 'https://ecommerce-front-six-lac.vercel.app/',
+    source_code_link: 'https://github.com/PhilipCheang/Ecommerce-Front',
+    live_project_link: 'https://ecommerce-front-six-lac.vercel.app/',
   },
-  {
-    name: 'Art Ai Community',
-    description:
-      'I learned how to use various technologies such as React, components, routers, and file-saver, as well as external APIs like Dalle API and cloud-based services like Cloudinary. By building a web app with these technologies, I gained valuable experience in creating dynamic, interactive web applications that connect to external data sources and cloud services.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'vite',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwindcss',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'cloudinary',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: dalle,
-    source_code_link: 'https://artaicommunity.netlify.app',
-  },
+  // {
+  //   name: 'Art Ai Community',
+  //   description:
+  //     'I learned how to use various technologies such as React, components, routers, and file-saver, as well as external APIs like Dalle API and cloud-based services like Cloudinary. By building a web app with these technologies, I gained valuable experience in creating dynamic, interactive web applications that connect to external data sources and cloud services.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'vite',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwindcss',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'cloudinary',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: dalle,
+  //   source_code_link: 'https://github.com/PhilipCheang/dalleclone',
+  //   live_project_link: 'https://artaicommunity.netlify.app',
+  // },
   {
     name: 'CarHub',
     description:
@@ -279,7 +281,8 @@ const projects = [
       },
     ],
     image: car_showcase,
-    source_code_link: 'https://car-showcase-lac.vercel.app/',
+    source_code_link: 'https://github.com/PhilipCheang/car-showcase',
+    live_project_link: 'https://car-showcase-lac.vercel.app/',
   },
   // {
   //   name: "Promptopia",
@@ -348,27 +351,28 @@ const projects = [
   //   image: keeper,
   //   source_code_link: "https://jotspot.netlify.app",
   // },
-  // {
-  //   name: 'Daily J',
-  //   description:
-  //     'By working on Daily J, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Node.js, Express, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.',
-  //   tags: [
-  //     {
-  //       name: 'nodejs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'mongodb atlas',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: daily,
-  //   source_code_link: 'https://dailyj.cyclic.app/',
-  // },
+  {
+    name: 'Daily J',
+    description:
+      'By working on Daily J, I gained experience in building a CRUD (Create, Read, Update, Delete) application with Node.js, Express, and MongoDB Atlas. I learned how to create a post and save data to a database, retrieve and display data, update and delete data, and handle errors. Overall, this project helped me to improve my skills in using these technologies and provided valuable experience in building a functional web application.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb atlas',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: daily,
+    source_code_link: 'https://github.com/PhilipCheang/dalleclone',
+    live_project_link: 'https://dailyj.cyclic.app/',
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
